@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb_*
+*.nbconvert/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Sensitive information
+config.yaml
+.aws/credentials
+
+# MongoDB data files
+dump/
+*.bson
+*.json
+
+# Spark temporary files
+metastore_db/
+derby.log
+spark-warehouse/
